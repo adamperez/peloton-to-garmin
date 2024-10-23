@@ -13,7 +13,8 @@ on:
         type: boolean
         default: false
   schedule:
-    - cron: '30 17 * * *'
+    # runs at 8:15pm ET (12:15am UTC)
+    - cron: '15 1 * * *'
 
 jobs:
   sync:
